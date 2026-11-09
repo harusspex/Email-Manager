@@ -1,4 +1,7 @@
-package model;
+package Model;
 
-public class EmailStatus {
+public enum EmailStatus{
+        PENDING,
+        SENT,
+        FAILED
 }
